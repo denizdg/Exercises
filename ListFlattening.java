@@ -1,3 +1,11 @@
+/*
+ * © Programming Interviews Exposed 
+ * By John Mongan, Eric Giguere, Noah Kindler
+ * Third Edition 
+ * 
+ * Page 53, List Flattening problem
+ * 
+ */
 
 public class ListFlattening {
 	
