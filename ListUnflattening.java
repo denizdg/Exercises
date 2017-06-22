@@ -7,16 +7,23 @@
  * 
  */
 
-
-/*	Algorithm:
- *  While not at the end
- *  	If current node has a child from its previous node
- *  		Separate the child from its previous node
- *  		Explore path beginning with the child
- *  	Go onto the next node
- * */
-
 public class ListUnflattening {
+	
+	/*	Algorithm:
+	 *  While not at the end
+	 *  	If current node has a child from its previous node
+	 *  		Separate the child from its previous node
+	 *  		Explore path beginning with the child
+	 *  	Go onto the next node
+	 * */
+	
+	class Node{
+		Node next;
+		Node prev;
+		Node child;
+		int data;
+	}
+	
 	
 	// unflattenList wraps the recursive function and updates the tail pointer
 	public void unflattenList(Node head){
